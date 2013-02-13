@@ -1,13 +1,13 @@
 {
   "devMode": true,
   "version": "0.1",
-  "name": "Pixlr Editor",
-  "identifier": "com.koding.apps.pixlreditor",
-  "path": "~/Applications/PixlrEditor.kdapp",
-  "homepage": "fatihacet.koding.com/pixlreditor",
+  "name": "Pixlr Express",
+  "identifier": "com.koding.apps.pixlrexpress",
+  "path": "~/Applications/PixlrExpress.kdapp",
+  "homepage": "fatihacet.koding.com/pixlrexpress",
   "author": "Fatih Acet",
-  "repository": "git://github.com/fatihacet/pixlreditor.kdapp.git",
-  "description": "Pixlr Editor: Pixlr image editing application",
+  "repository": "git://github.com/fatihacet/pixlrexpress.kdapp.git",
+  "description": "Pixlr Express: Pixlr image editing application",
   "category": "web-app",
   "source": {
     "blocks": {
