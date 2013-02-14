@@ -1,6 +1,6 @@
 # Pixlr Express 
 
-This is an image editing application for Koding users. 
+This is [Pixlr](http://pixlr.com/) Koding application. You can edit and save images back to your Koding working directory.
 
 ## Installing Pixlr Express
 
