@@ -1,4 +1,4 @@
-// Compiled by Koding Servers at Wed Feb 13 2013 11:04:34 GMT-0800 (PST) in server time
+// Compiled by Koding Servers at Wed Feb 13 2013 17:43:44 GMT-0800 (PST) in server time
 
 (function() {
 
@@ -17,8 +17,8 @@ appKeyword = 'express';
 PixlrSettings = {
   appName: appName,
   src: "https://pixlr.com/" + appKeyword,
-  image: "https://dl.dropbox.com/u/31049236/nat-geo.jpeg",
-  saveIcon: "https://dl.dropbox.com/u/31049236/koding16.png",
+  image: "https://app.koding.com/fatihacet/Pixlr%20Express/latest/resources/default/istanbul.png",
+  saveIcon: "https://app.koding.com/fatihacet/Pixlr%20Editor/latest/resources/default/koding16.png",
   targetPath: "https://" + nickname + ".koding.com/PixlrHook/PixlrHook.php",
   savePath: "/Users/" + nickname + "/Documents/" + appName + "/",
   imageName: "Default",
@@ -152,7 +152,7 @@ PixlrAppView = (function(_super) {
     return new KDModalView({
       title: "Cannot save!",
       overlay: true,
-      content: "Pixlr cannot access the little php file it needs \nto be able to save files (./website/PixlrHook/pixlrHook.php)\nYou either deleted it, or made it inaccessible somehow (think .htaccess)\n\nReinstalling Pixlr might fix it, but not guaranteed.\n\nIf you want this be fixed, you should convince someone to continue developing Pixlr.kdapp :)"
+      content: "<div class=\"pixlr-cannot-save\">\n  Pixlr cannot access the little php file it needs \n  to be able to save files (./website/PixlrHook/pixlrHook.php)\n  You either deleted it, or made it inaccessible somehow (think .htaccess)\n  \n  Reinstalling Pixlr might fix it, but not guaranteed.\n  \n  If you want this be fixed, you should convince someone to continue developing Pixlr.kdapp :)\n</div>"
     });
   };
 
