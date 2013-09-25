@@ -1,5 +1,7 @@
 # Pixlr Express 
 
+[![Clone PixlrExpress.kdapp in Koding](http://kbutton.org/clone.png?v1380114418220)](http://kbutton.org/fatihacet/PixlrExpress.kdapp)
+
 This is [Pixlr](http://pixlr.com/) Koding application. You can edit and save images back to your Koding working directory.
 
 ## Installing Pixlr Express
